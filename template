@@ -10,3 +10,13 @@ Blah blah blah blah blah ...
 
 **due**: YYYY-MM-DD
 **supervisor**: @some-tem-memsbers-handle 
+
+
+
+
+
+Conda build steps
+1. set BUILD_VERSION=33
+2. conda build . --python 3.10     (from the package folder outside)
+3. conda activate another env
+4. conda install packagename --use-local
