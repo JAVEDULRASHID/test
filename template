@@ -20,3 +20,13 @@ Conda build steps
 2. conda build . --python 3.10     (from the package folder outside)
 3. conda activate another env
 4. conda install packagename --use-local
+
+
+using lift
+1. conda install lw-tool-lift
+2. lift package
+3. conda create -n hm_vis_v1 tuc-node-heatmap-vis --channel "/media/javed/New Volume/Python_project/Work/heatmap_visualization/tuc-node-heatmap-vis/builds"
+
+
+
+conda build -m .linkworks/ci/build_linux-64_py310x_x_cpython.yml conda-recipe/
